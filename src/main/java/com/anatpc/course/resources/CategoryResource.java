@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.anatpc.course.entities.Category;
 import com.anatpc.course.services.CategoryService;
 
-import jakarta.websocket.server.PathParam;
-
-import org.springframework.web.bind.annotation.RequestParam;
-
-
 @RestController
 @RequestMapping(value = "/categories")
 public class CategoryResource {

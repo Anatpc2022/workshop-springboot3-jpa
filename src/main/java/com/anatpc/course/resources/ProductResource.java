@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.anatpc.course.entities.Product;
 import com.anatpc.course.services.ProductService;
 
-import jakarta.websocket.server.PathParam;
-
-import org.springframework.web.bind.annotation.RequestParam;
-
-
 @RestController
 @RequestMapping(value = "/products")
 public class ProductResource {

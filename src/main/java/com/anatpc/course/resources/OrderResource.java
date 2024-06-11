@@ -10,14 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.anatpc.course.entities.Order;
-import com.anatpc.course.entities.User;
 import com.anatpc.course.services.OrderService;
-import com.anatpc.course.services.UserService;
-
-import jakarta.websocket.server.PathParam;
-
-import org.springframework.web.bind.annotation.RequestParam;
-
 
 @RestController
 @RequestMapping(value = "/orders")
